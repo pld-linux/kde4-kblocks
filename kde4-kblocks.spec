@@ -42,7 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 	kde_htmldir=%{_kdedocdir}
 
 install -d $RPM_BUILD_ROOT/var/games
-touch $RPM_BUILD_ROOT/var/games/kbounce.scores
 # remove locolor icons
 rm -rf $RPM_BUILD_ROOT%{_iconsdir}/locolor
 
