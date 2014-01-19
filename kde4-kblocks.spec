@@ -4,12 +4,12 @@
 
 Summary:	KDE Blocks
 Name:		kde4-%{orgname}
-Version:	4.12.0
+Version:	4.12.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	0ded6841be5be06fea1f292fd5618777
+# Source0-md5:	355f9f636a36759738904cfea6db2d20
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
